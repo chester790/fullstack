@@ -18,5 +18,11 @@
 
 </form>
 
+<br>
+
+<div class="register">
+    <a href="register.php" style="color: white">Register Here!</a>
+</div>
+
 </body>
 </html>
