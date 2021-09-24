@@ -56,7 +56,6 @@ nav {
     position:sticky;
     z-index:2;
     background-image: url("img/bg2.png");
-    background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
 }

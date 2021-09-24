@@ -23,7 +23,7 @@ endif;
         <ul class="menu">
             <li><a href="home.php">Home</a></li>
             <li><a href="feature.php">Features</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="upload.php">Upload</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
@@ -46,6 +46,13 @@ endif;
             <a href="https://music.youtube.com/watch?v=UTHLKHL_whs&list=RDAMVMUTHLKHL_whs">
                 <img src="img/vid3.jpg" alt="video3" style="width: 200px; height: 100px">
             </a>
+        </div>
+
+        <div class="videos">
+            <a href="videos.php">
+                <img src="img/videos.jpg" alt="videos" style="width: 200px; height: 100px">
+            </a>
+
         </div>
 
         <br>

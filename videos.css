@@ -2,9 +2,9 @@ body {
     background-image: url("img/bg2.png");
     background-repeat: no-repeat;
     background-size: cover;
-}
-.welcome {
     text-align: center;
+    margin-top: 200px;
+
 }
 
 .menu{
@@ -14,4 +14,3 @@ li {
     display: inline-block;
     margin: 20px;
 }
-
