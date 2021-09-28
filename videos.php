@@ -25,9 +25,9 @@
 <h1>I said DON'T CLICK!!</h1>
 <h2>Why didn't you listen to me :(</h2>
 
-<iframe width="560" height="315"
-        src="https://www.youtube.com/embed/dQw4w9WgXcQ">
-</iframe>
+<video controls autoplay>
+    <source src="img/test.mp4" type="video/mp4">
+</video>
 
 </body>
 </html>

@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Upload Page</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="upload.css">
 </head>
 <body>
 
-<h1><a href="video.php">Video's</a></h1>
+<header>
+    <h2 style="text-align: center">Music For You!</h2>
+</header>
+
+<nav>
+    <ul class="menu">
+        <li><a href="home.php">Home</a></li>
+        <li><a href="feature.php">Features</a></li>
+        <li><a href="upload.php">Upload</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
 
 <form method="post" action="upload.php" enctype="multipart/form-data">
 
@@ -21,14 +34,15 @@
 <?php
 
 include ('db connectie.php');
-print_r($_FILES);
-if (!empty($_POST['file']) && !empty($_POST['upload']))
+
+if (!empty($_FILES['file']) && !empty($_POST['upload']))
  {
-    print_r($_FILES);
     $path = $_FILES['file']['name'];
     $name = $_FILES['file']['name'];
     $tmp = $_FILES['file']['tmp_name'];
-    move_uploaded_file($tmp, "videos/" . $name);
+    if (move_uploaded_file($tmp, "videos/" . $name)) {
+
+    }
 
     $sql = "INSERT INTO vid (name, path) VALUES ('" . $name . "','" . $path . "')";
 
@@ -40,5 +54,9 @@ if ($res) {
     echo "Error: " . mysqli_error($con);
 }}
 
-
+function JSC($input){
+    echo "<pre>";
+    print_r($input);
+    echo "</pre>";
+}
 ?>
