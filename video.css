@@ -1,0 +1,16 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    margin:0;
+    background-image: url("img/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu{
+
+    text-align: center;
+}
+li {
+    display: inline-block;
+    margin: 20px;
+}

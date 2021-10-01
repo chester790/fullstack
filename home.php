@@ -22,8 +22,9 @@ endif;
     <nav>
         <ul class="menu">
             <li><a href="home.php">Home</a></li>
-            <li><a href="video.php">Video's</a></li>
+            <li><a href="feature.php">Features</a></li>
             <li><a href="upload.php">Upload</a></li>
+            <li><a href="video.php">Custom Video</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
