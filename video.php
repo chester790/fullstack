@@ -18,7 +18,6 @@
         <li><a href="feature.php">Features</a></li>
         <li><a href="upload.php">Upload</a></li>
         <li><a href="video.php">Custom Video</a></li>
-        <li><a href="watch.php">Watch</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
 </nav>
@@ -28,6 +27,7 @@
 <br>
 <br>
 <br>
+<div class="php">
 <?php
 
 include ('db connectie.php');
@@ -35,11 +35,28 @@ include ('db connectie.php');
 $q= "select * from vid";
 $query = mysqli_query($con, $q);
 while ($row=mysqli_fetch_assoc($query)) {
-    $id = $row('id');
-    $name = $row('name');
-    echo "<a href ='watch.php?id=$id'>$name</a><br>";
+
+    $id = $row['id'];
+    $name = $row['name'];
+    echo "<a href ='video.php?id=$id'>$name</a><br>";
+
 }
+
+if (isset ($_GET['id']))
+{
+    $id = $_GET['id'];
+    $q = "select name from vid where id=$id";
+    $query = mysqli_query($con, $q);
+    while($row = mysqli_fetch_assoc($query))
+    {
+        $name = $row['name'];
+    }
+    echo "You are watching ".$name."<br>";
+    echo "<video width='400' controls autoplay><source src='videos/".$name."' type='video/webm'></video>";
+}
+
 ?>
+</div>
 
 <footer>
     <div class="links">
