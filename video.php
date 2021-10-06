@@ -15,7 +15,7 @@
 <nav>
     <ul class="menu">
         <li><a href="home.php">Home</a></li>
-        <li><a href="feature.php">Features</a></li>
+        <li><a href="feature.html">Explanation</a></li>
         <li><a href="upload.php">Upload</a></li>
         <li><a href="video.php">Custom Video</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -61,7 +61,6 @@ if (isset ($_GET['id']))
 <footer>
     <div class="links">
         <a href="home.php">Home</a>
-        <a href="video.php">Video's</a>
         <a href="upload.php">Upload</a>
         <a href="contact.html">Contact</a>
         <br>

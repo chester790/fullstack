@@ -22,7 +22,7 @@ endif;
     <nav>
         <ul class="menu">
             <li><a href="home.php">Home</a></li>
-            <li><a href="feature.php">Features</a></li>
+            <li><a href="feature.html">Explanation</a></li>
             <li><a href="upload.php">Upload</a></li>
             <li><a href="video.php">Custom Video</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -30,21 +30,21 @@ endif;
     </nav>
 
         <div class="welcome">
-            <p>Press on a picture and watch the video!</p>
+            <p>If you need help, click the Explanation tab or Contact me at the Contact Tab</p>
         </div>
 
         <div class="video1">
-            <a href="https://music.youtube.com/watch?v=BFLNfXsfLhA&list=RDAMVMBFLNfXsfLhA">
+            <a href="unbreakable.html">
                 <img src="img/vid1.jpg" alt="video1" style="width:200px;height:100px;">
             </a>
         </div>
         <div class="video2">
-            <a href="https://music.youtube.com/watch?v=y1xZ_kAhjMc&list=RDAMVMy1xZ_kAhjMc">
+            <a href="2055.html">
                 <img src="img/vid2.jpg" alt="video2" style="width: 200px; height: 100px">
             </a>
         </div>
         <div class="video3">
-            <a href="https://music.youtube.com/watch?v=UTHLKHL_whs&list=RDAMVMUTHLKHL_whs">
+            <a href="industry.html">
                 <img src="img/vid3.jpg" alt="video3" style="width: 200px; height: 100px">
             </a>
         </div>
@@ -53,17 +53,15 @@ endif;
             <a href="videos.php">
                 <img src="img/videos.jpg" alt="videos" style="width: 200px; height: 100px">
             </a>
-
         </div>
 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        <div class="video4">
+            <a href="hopes.html">
+                <img src="img/vid4.jpg" alt="videos" style="width: 200px; height: 100px">
+            </a>
+        </div>
+
+    <br>
 
         <footer>
             <div class="links">
