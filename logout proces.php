@@ -1,6 +1,6 @@
 <?php session_start();
 if(empty($_SESSION['id'])):
-    header('Location:login.php');
+    header('Location:index.php');
 endif;
 ?>
 <!DOCTYPE html>
@@ -12,7 +12,7 @@ endif;
 include('db connectie.php');
 session_destroy();
 
-echo '<meta http-equiv="refresh" content="2;url=login.php">';
+echo '<meta http-equiv="refresh" content="2;url=index.php">';
 echo '<progress max=100><strong>Progress: 60% done.</strong></progress><br>';
 echo '<span class="itext">Aan het uitloggen, even geduld!</span>';
 

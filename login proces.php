@@ -21,7 +21,7 @@ if(isset($_POST['login']));
         if ($counter == 0)
         {
             echo "<script type='text/javascript'>alert('Ongeldige gebruikersnaam of wachtwoord!')
-        document.location='login.php'</script>";
+        document.location='index.php'</script>";
         }
         else
         {

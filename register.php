@@ -12,7 +12,7 @@
 <form method="POST">
     <input type="text" id="user" name="username" placeholder="username"/><br
 ><br>
-    <input type="text" id="pass" name="password" placeholder="password"/><br
+    <input type="password" id="pass" name="password" placeholder="password"/><br
 ><br>
     <button type="submit" id="btn" name="register" default>register</button><br
 </form>
@@ -31,6 +31,6 @@
 
 <br>
 
-<a href="login.php" style="color: white;">Log in!</a>
+<a href="index.php" style="color: white;">Log in!</a>
 </body>
 </html>
